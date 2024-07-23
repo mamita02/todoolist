@@ -1,0 +1,105 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  background: linear-gradient(135deg, #4CAF50 0%, #FFEB3B 100%);
+  color: #333;
+  line-height: 1.6;
+}
+
+.ui-page {
+  background: transparent;
+}
+
+.ui-content {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background: rgba(255, 255, 255, 0.9);
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  color: #FF5252;
+  text-align: center;
+  font-size: 2.5em;
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+}
+
+h2 {
+  color: #4CAF50;
+  border-bottom: 2px solid #FFEB3B;
+  padding-bottom: 10px;
+}
+
+#task {
+  border: none;
+  border-bottom: 2px solid #4CAF50;
+  background: transparent;
+  padding: 10px;
+  font-size: 1em;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.ajouter {
+  background: #4CAF50;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1em;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.ajouter:hover {
+  background: #45a049;
+}
+
+.reset {
+  background: #FF5252;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1em;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.reset:hover {
+  background: #ff1744;
+}
+
+#taskList li {
+  background: #fff;
+  margin-bottom: 10px;
+  padding: 15px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  transition: all 0.3s ease;
+  border-left: 5px solid #4CAF50;
+}
+
+#taskList li:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+.highlight {
+  background: #FFEB3B !important;
+  border-left: 5px solid #FFC107 !important;
+}
+
+.delete-btn {
+  float: right;
+  color: #FF5252;
+  cursor: pointer;
+}
+
+.ui-footer {
+  background: rgba(76, 175, 80, 0.8);
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+}
